@@ -2,6 +2,8 @@
 Tree-based Models for New York City Taxi &amp; Limousine Commission Tip Prediction
 ![Alt text](relative%20path/to/Screenshot 2024-07-17 140350.jpg?raw=true "Title")
 
+![screenshot](/images/screenshot.png)
+
 Predicting Taxi Gratuities in New York City
 
 Overview 
