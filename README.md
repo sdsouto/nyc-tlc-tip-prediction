@@ -11,6 +11,12 @@ Data from Glassdoor (2024) indicates that the average base salary for a New York
 
 **Data Understanding**
 
+The data was obtained from NYC.gov, provided by the NYC Taxi and Limousine Commission (TLC). This dataset included approximately 113 million unique taxi trips, described by 18 different features. These features provided details about the trips, including duration, destination, vendor, passenger count, toll information, and payment type used.
+
+The breakdown of generous tippers (>20%) versus non-generous tippers that exist in the data set are reflected in this bar chart:
+<<enter bar chart here>>
+To enhance the dataset, a new feature was engineered indicating whether a trip occurred during rush hour. Additionally, unnecessary columns were removed and converted data to the appropriate formats for analysis.
+
 **Modeling and Evaluation**
 
 **Conclusion**
