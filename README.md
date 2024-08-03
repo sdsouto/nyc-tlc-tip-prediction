@@ -29,6 +29,12 @@ To identify the key factors influencing tip generosity, a random forest model wa
   <img src="images/rf_top5feat.png" width="800">
 </p>
 
+Supplementary models constructed for this project are:
+
+- A/B Test: Examined the impact of payment type on fare amount, finding higher fares for credit card users.
+- Multiple Linear Regression: Predicted taxi fares and determined distance as the primary factor influencing fare costs.
+- Random Forest, XGBoost: Predicted customer tipping generosity, identifying VendorID, passenger count, distance, predicted fare, and trip duration as key predictors.
+
 **Conclusion**
 
 These models can help to identify the primary factors influencing fare amount and assist taxi drivers in predicting the likelihood of receiving a generous tip. However, to quantify the exact impact of each factor on tip amount, a parametric model should be considered. Additionally, incorporating data on riders' past tipping behavior could further enhance the model's predictive capabilities and provide more actionable insights for taxi drivers.
