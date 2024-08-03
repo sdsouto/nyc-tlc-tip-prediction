@@ -3,7 +3,7 @@ This page is under construction.
 
 **Overview**
 
-This project aimed to develop predictive models for determining whether a New York City yellow taxi passenger would be a high tipper. Using 2017 taxi trip data, this project constructed multiple linear regression and random forest models. The random forest model demonstrated strong performance, accurately predicting high tippers 86% of the time and correctly identifying high tippers among predicted positives 72% of the time. The analysis revealed that trip duration, distance, and cost were the primary factors influencing tip generosity.
+This project aimed to develop predictive models for determining whether a New York City yellow taxi passenger would be a high tipper. Using 2017 taxi trip data, this project constructed multiple linear regression and random forest models. The random forest model demonstrated strong performance, accurately predicting high tippers 81% of the time and correctly identifying high tippers among predicted positives 68% of the time. The analysis revealed that trip duration, distance, and cost were the primary factors influencing tip generosity.
 
 **Business Understanding**
 
@@ -23,7 +23,7 @@ To enhance the dataset, a new feature was engineered indicating whether a trip o
 
 **Modeling and Evaluation**
 
-To identify the key factors influencing tip generosity, a random forest model was constructed using 300 decision trees. The model revealed that Vendor ID, passenger count, and distance were the most critical determinants of high tipping behavior. Overall, the model demonstrated strong predictive performance, accurately classifying passengers as generous or non-generous tippers 70% of the time and correctly identifying generous tippers among predicted positives 68% of the time.
+To identify the key factors influencing tip generosity, a random forest model was constructed using 300 decision trees. The model revealed that Vendor ID, passenger count, and distance were the most critical determinants of high tipping behavior. Overall, the model performed with 70% accuracy and 68% precision. 
 
 <p align="center">
   <img src="images/rf_top5feat.png" width="800">
