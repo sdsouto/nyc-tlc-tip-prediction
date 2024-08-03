@@ -23,9 +23,11 @@ To enhance the dataset, a new feature was engineered indicating whether a trip o
 
 **Modeling and Evaluation**
 
+To identify the key factors influencing tip generosity, a random forest model was constructed using 300 decision trees. The model revealed that Vendor ID, passenger count, and distance were the most critical determinants of high tipping behavior. Overall, the model demonstrated strong predictive performance, accurately classifying passengers as generous or non-generous tippers 70% of the time and correctly identifying generous tippers among predicted positives 68% of the time.
+
 <p align="center">
   <img src="images/rf_top5feat.png" width="800">
 </p>
 
 **Conclusion**
-
+These models can assist taxi drivers in predicting the likelihood of receiving a generous tip. However, to quantify the exact impact of each factor on tip amount, a parametric model should be considered. Additionally, incorporating data on riders' past tipping behavior could further enhance the model's predictive capabilities and provide more actionable insights for taxi drivers.
