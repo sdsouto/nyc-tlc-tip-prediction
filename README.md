@@ -31,4 +31,4 @@ To identify the key factors influencing tip generosity, a random forest model wa
 
 **Conclusion**
 
-These models can assist taxi drivers in predicting the likelihood of receiving a generous tip. However, to quantify the exact impact of each factor on tip amount, a parametric model should be considered. Additionally, incorporating data on riders' past tipping behavior could further enhance the model's predictive capabilities and provide more actionable insights for taxi drivers.
+These models can help to identify the primary factors influencing fare amount and assist taxi drivers in predicting the likelihood of receiving a generous tip. However, to quantify the exact impact of each factor on tip amount, a parametric model should be considered. Additionally, incorporating data on riders' past tipping behavior could further enhance the model's predictive capabilities and provide more actionable insights for taxi drivers.
