@@ -23,5 +23,9 @@ To enhance the dataset, a new feature was engineered indicating whether a trip o
 
 **Modeling and Evaluation**
 
+<p align="center">
+  <img src="images/rf_top5feat.png" width="800">
+</p>
+
 **Conclusion**
 
