@@ -22,6 +22,11 @@ The breakdown of generous tippers (>20%) versus non-generous tippers that exist 
 To enhance the dataset, a new feature was engineered indicating whether a trip occurred during rush hour. Additionally, unnecessary columns were removed and converted data to the appropriate formats for analysis.
 
 **Modeling and Evaluation**
+A multiple linear regression model was developed to estimate taxi fares. The model found that each additional mile increased the fare by an average of $2.10, with distance being the most influential factor. The model explained 84% of the variation in fare amounts.
+
+<p align="center">
+  <img src="images/FareAmtCorrs.png" width="800">
+</p>
 
 To identify the key factors influencing tip generosity, a random forest model was constructed using 300 decision trees. The model revealed that Vendor ID, passenger count, and distance were the most critical determinants of high tipping behavior. Overall, the model performed with 70% accuracy and 68% precision. 
 
@@ -29,7 +34,7 @@ To identify the key factors influencing tip generosity, a random forest model wa
   <img src="images/rf_top5feat.png" width="800">
 </p>
 
-Supplementary models constructed for this project are:
+Supplementary models and analyses conducted:
 
 - A/B Test: Examined the impact of payment type on fare amount, finding higher fares for credit card users.
 - Multiple Linear Regression: Predicted taxi fares and determined distance as the primary factor influencing fare costs.
